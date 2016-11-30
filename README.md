@@ -4,7 +4,7 @@ UART Battleship implements a UART in hardware using Verilog. A top level battles
 
 ##UART Hardware Design
 
-![alt text](https://github.com/Katieneff/UART-Battleship/blob/master/hardware.png "Hardware Design for UART")
+![alt text](https://github.com/Katieneff/UART-Battleship/blob/master/images/hardware.png "Hardware Design for UART")
 
 This image shows the top level hardware design for the UART. The Verilog code is found in ```hardware/```.
 
