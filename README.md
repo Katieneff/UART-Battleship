@@ -6,8 +6,8 @@ UART Battleship implements a UART in hardware using Verilog. A top level battles
 
 ![alt text](https://github.com/Katieneff/UART-Battleship/blob/master/hardware.png "Hardware Design for UART")
 
-This image shows the top level hardware design for the UART. The Verilog code is found in ```src/```.
+This image shows the top level hardware design for the UART. The Verilog code is found in ```hardware/```.
 
 ##Software Design
 
-The C code for the gameplay is found in the file ```software/battleship_with_sram/hello_world_small.c```. The names were not changed because Eclipse for NIOS II was uncooperative when we did not start with a template file that was prenamed.
+The C code for the gameplay is found in the file ```software/battleship.c```. This file would need to be reconfigured with the NIOS II IDE to download properly onto the FPGA.
